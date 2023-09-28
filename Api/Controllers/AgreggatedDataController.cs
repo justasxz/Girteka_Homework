@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Girteka_Homework.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class AgreggatedDataController : ControllerBase
     {
 
@@ -18,7 +18,7 @@ namespace Girteka_Homework.Controllers
             _logger.LogDebug(1, "NLog injected into AgreggatedDataController");
         }
 
-        [HttpGet(Name = "GetAggregatedData")]
+        [HttpGet]
         public async Task<IActionResult> GetAggregatedData()
         {
             try
@@ -29,7 +29,8 @@ namespace Girteka_Homework.Controllers
 
                 if (records.Any())
                     return Ok(records);
-                else return BadRequest("The data could not be aggregated and retrieved");
+
+                return BadRequest("The data could not be aggregated and retrieved");
             }
             catch (Exception ex)
             {

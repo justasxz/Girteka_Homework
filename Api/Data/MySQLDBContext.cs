@@ -13,13 +13,6 @@ public class MySqlDBContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        //modelBuilder.Entity<Session>()
-        //    .HasOne(session => session.CreatedByUser)
-        //    .WithMany(user => user.Sessions);
-
-        //modelBuilder.Entity<User>()
-        //    .HasIndex(user => user.Email)
-        //    .IsUnique();
     }
 
     public DbSet<Electronic_Data> Electronic_Data { get; set; }

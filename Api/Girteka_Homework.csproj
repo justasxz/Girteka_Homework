@@ -7,7 +7,7 @@
     <UserSecretsId>1f698ef3-107c-4255-93cc-93d5b04682da</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
-    <AssemblyVersion>1.0.0.90</AssemblyVersion>
+    <AssemblyVersion>1.0.0.93</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
