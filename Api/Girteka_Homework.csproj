@@ -7,7 +7,7 @@
     <UserSecretsId>1f698ef3-107c-4255-93cc-93d5b04682da</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
-    <AssemblyVersion>1.0.0.87</AssemblyVersion>
+    <AssemblyVersion>1.0.0.90</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,8 +19,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />
-    <PackageReference Include="Moq" Version="4.20.69" />
-    <PackageReference Include="NLog" Version="5.2.4" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="5.*" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />

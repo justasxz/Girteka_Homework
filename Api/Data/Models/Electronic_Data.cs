@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
+﻿
 namespace Girteka_Homework.Data.Models
 {
     public class Electronic_Data : SystemFields

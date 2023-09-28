@@ -1,13 +1,11 @@
-﻿using Girteka_Homework.Controllers;
-using Girteka_Homework.Data;
+﻿using Girteka_Homework.Data;
 using Girteka_Homework.Data.Models;
 using Girteka_Homework.Services;
 using Girteka_Homework.Services.Interfaces;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Moq;
-using NUnit.Framework;
+
 
 namespace Girteka_UnitTests
 {
