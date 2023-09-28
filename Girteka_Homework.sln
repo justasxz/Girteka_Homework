@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Girteka_UnitTests", "..\Girteka_UnitTests\Girteka_UnitTests.csproj", "{A819385A-5790-47BC-9DC8-8E033110E33B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Girteka_Homework", "Api\Girteka_Homework.csproj", "{D6A47923-DEBA-4C4E-AB48-62F9F509F79A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Girteka_UnitTests", "Girteka_UnitTests\Girteka_UnitTests.csproj", "{77BF0CE0-9D12-42F0-BBE7-B69D8727A1B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A819385A-5790-47BC-9DC8-8E033110E33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A819385A-5790-47BC-9DC8-8E033110E33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A819385A-5790-47BC-9DC8-8E033110E33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A819385A-5790-47BC-9DC8-8E033110E33B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6A47923-DEBA-4C4E-AB48-62F9F509F79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6A47923-DEBA-4C4E-AB48-62F9F509F79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6A47923-DEBA-4C4E-AB48-62F9F509F79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6A47923-DEBA-4C4E-AB48-62F9F509F79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BF0CE0-9D12-42F0-BBE7-B69D8727A1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BF0CE0-9D12-42F0-BBE7-B69D8727A1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BF0CE0-9D12-42F0-BBE7-B69D8727A1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BF0CE0-9D12-42F0-BBE7-B69D8727A1B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
